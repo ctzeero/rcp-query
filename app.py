@@ -2,10 +2,17 @@
 
 from __future__ import annotations
 
+import os
 import re
 
 import httpx
 import streamlit as st
+
+# Bridge Streamlit secrets → environment variables so src/config.py
+# (which reads os.getenv) works on Community Cloud.
+if hasattr(st, "secrets"):
+    for key, value in st.secrets.items():
+        os.environ.setdefault(key, str(value))
 
 from src.config import (
     API_BASE_URL,
