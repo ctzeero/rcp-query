@@ -1,0 +1,25 @@
+THE GOLDEN FORK
+206 Market Street
+San Francisco, CA
+Tel: 616-555-2638
+
+Server: Mike T.
+Table: 12
+Date: 12/12/2023 15:16
+
+Grilled Salmon                 $ 22.14
+Soup of the Day                $ 10.32
+Pasta Primavera                $ 19.97
+Cheesecake                     $ 10.18
+
+SUBTOTAL                       $  62.61
+TAX                            $   5.32
+TOTAL                          $  67.93
+
+TIP (22%)                      $  14.94
+GRAND TOTAL                    $  82.87
+
+MASTERCARD ****6201
+APPROVED
+
+Thank you! Please come again!

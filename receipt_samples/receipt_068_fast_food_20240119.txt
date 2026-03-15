@@ -1,0 +1,19 @@
+MCDONALD'S
+#3978
+503 Main Street
+San Francisco, CA
+
+Order #: 3312
+01/19/2024  18:56
+
+Quesadilla                     $  8.94
+Chips - Large                  $  2.93
+Juice - Small                  $  3.08
+
+SUBTOTAL                       $ 14.95
+TAX                            $  1.27
+TOTAL                          $ 16.22
+
+DEBIT CARD ****4616           $ 16.22
+
+Thanks for your order!

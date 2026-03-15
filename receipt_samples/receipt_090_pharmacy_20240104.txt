@@ -1,0 +1,20 @@
+Rite Aid
+#9383
+1594 Mission Street
+San Francisco, CA
+(634) 555-7794
+
+01/04/2024                8:20
+Cashier: Maria L.
+
+Advil 200ct                  $ 18.97
+Multivitamin                 $ 19.59
+Allergy Medicine             $ 21.23
+Vitamin D                    $ 12.74
+Band-Aids                    $  6.80
+
+SUBTOTAL                       $ 79.33
+TAX (8.5%)                     $  6.74
+TOTAL                          $ 86.07
+
+MASTERCARD ****1881             $ 86.07

@@ -1,0 +1,19 @@
+SUBWAY
+#3999
+112 Market Street
+Oakland, CA
+
+Order #: 5441
+01/22/2024  10:21
+
+Burrito                        $ 11.51
+Fries - Small                  $  3.28
+Juice - Large                  $  3.96
+
+SUBTOTAL                       $ 18.75
+TAX                            $  1.73
+TOTAL                          $ 20.48
+
+DEBIT CARD ****3446           $ 20.48
+
+Thanks for your order!

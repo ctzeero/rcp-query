@@ -1,0 +1,26 @@
+Trader Joe's
+519 Market Street
+San Francisco, CA
+Phone: (598)-555-6686
+
+Date: 12/09/2023  Time: 11:47
+Cashier: Emma K.
+
+Salmon Fillet                  $ 14.13
+Kale Bunch                     $  3.58
+Rice 5lb                       $ 11.65
+Cereal                         $  7.67
+Chicken Breast                 $ 11.60
+Apples (6)                     $  8.56
+Ground Beef                    $ 11.87
+Bread                          $  4.16
+Pasta                          $  5.48
+
+SUBTOTAL:                     $  78.70
+TAX (8.5%):                    $   6.69
+TOTAL:                        $  85.39
+
+DISCOVER ****9019            $  85.39
+
+ITEMS SOLD: 9
+Thank you for shopping!

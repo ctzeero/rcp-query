@@ -1,0 +1,20 @@
+CHIPOTLE MEXICAN GRILL
+#7043
+719 Market Street
+San Francisco, CA
+
+Order #: 1118
+11/25/2023  15:30
+
+Bowl                           $ 13.44
+Fries - Large                  $  2.80
+Juice - Medium                 $  2.74
+Cookie                         $  2.08
+
+SUBTOTAL                       $ 21.06
+TAX                            $  1.79
+TOTAL                          $ 22.85
+
+CREDIT CARD ****1975           $ 22.85
+
+Thanks for your order!

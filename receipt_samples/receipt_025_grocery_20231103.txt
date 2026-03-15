@@ -1,0 +1,25 @@
+Costco Wholesale
+112 Mission Street
+San Francisco, CA
+Phone: (437)-555-6136
+
+Date: 11/03/2023  Time: 16:58
+Cashier: Emma K.
+
+Organic Bananas                $  3.99
+Spinach                        $  3.52
+Avocados (4)                   $  6.27
+Olive Oil                      $ 14.17
+Greek Yogurt                   $  6.32
+Almond Milk                    $  4.37
+Orange Juice                   $  6.70
+Apples (6)                     $  6.53
+
+SUBTOTAL:                     $  51.87
+TAX (8.5%):                    $   4.41
+TOTAL:                        $  56.28
+
+AMEX ****3908            $  56.28
+
+ITEMS SOLD: 8
+Thank you for shopping!

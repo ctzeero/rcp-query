@@ -1,0 +1,22 @@
+Walmart Supercenter
+684 Market Street
+Daly City, CA
+Phone: (510)-555-1882
+
+Date: 11/07/2023  Time: 19:22
+Cashier: Sarah M.
+
+Pasta                          $  4.21
+Chicken Breast                 $ 12.07
+Avocados (4)                   $  7.75
+Apples (6)                     $  6.46
+Orange Juice                   $  6.59
+
+SUBTOTAL:                     $  37.08
+TAX (8.8%):                    $   3.24
+TOTAL:                        $  40.32
+
+VISA ****8651            $  40.32
+
+ITEMS SOLD: 5
+Thank you for shopping!

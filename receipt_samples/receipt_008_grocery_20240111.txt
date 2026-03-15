@@ -1,0 +1,32 @@
+Target
+585 Broadway Street
+San Francisco, CA
+Phone: (437)-555-6964
+
+Date: 01/11/2024  Time: 20:45
+Cashier: Emma K.
+
+Olive Oil                      $  9.78
+Organic Bananas                $  4.41
+Spinach                        $  3.55
+Greek Yogurt                   $  6.63
+Eggs (12)                      $  6.42
+Ground Beef                    $  8.16
+Avocados (4)                   $  7.58
+Cereal                         $  6.34
+Pasta                          $  3.74
+Chicken Breast                 $ 14.13
+Tomatoes                       $  5.25
+Salmon Fillet                  $ 13.10
+Kale Bunch                     $  3.57
+Cheese Block                   $  8.19
+Almond Milk                    $  5.74
+
+SUBTOTAL:                     $ 106.59
+TAX (8.5%):                    $   9.06
+TOTAL:                        $ 115.65
+
+VISA ****3383            $ 115.65
+
+ITEMS SOLD: 15
+Thank you for shopping!

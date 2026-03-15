@@ -1,0 +1,20 @@
+TACO BELL
+#8681
+721 Main Street
+San Jose, CA
+
+Order #: 2199
+12/08/2023  15:36
+
+Quesadilla                     $ 10.49
+Chips - Large                  $  3.97
+Soda - Large                   $  2.69
+Brownie                        $  2.23
+
+SUBTOTAL                       $ 19.38
+TAX                            $  1.77
+TOTAL                          $ 21.15
+
+DEBIT CARD ****6766           $ 21.15
+
+Thanks for your order!

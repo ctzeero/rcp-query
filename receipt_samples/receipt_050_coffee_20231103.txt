@@ -1,0 +1,18 @@
+Starbucks
+316 Valencia Street
+San Francisco, CA
+
+11/03/2023  8:19 PM
+Order #: 5436
+Barista: Emma
+
+1x Espresso                  $  3.17
+1x Drip Coffee               $  2.68
+
+SUBTOTAL                       $ 11.70
+TAX                            $  0.99
+TOTAL                          $ 12.69
+
+DEBIT CARD                     $ 12.69
+
+Thanks for your order!

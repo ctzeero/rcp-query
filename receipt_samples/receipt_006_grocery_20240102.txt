@@ -1,0 +1,30 @@
+Costco Wholesale
+189 Mission Street
+San Francisco, CA
+Phone: (533)-555-4794
+
+Date: 01/02/2024  Time: 16:13
+Cashier: Mike T.
+
+Orange Juice                   $  6.65
+Spinach                        $  3.09
+Apples (6)                     $  7.89
+Eggs (12)                      $  7.84
+Olive Oil                      $  9.51
+Almond Milk                    $  5.53
+Kale Bunch                     $  4.19
+Cheese Block                   $  8.91
+Avocados (4)                   $  8.63
+Chicken Breast                 $  9.71
+Rice 5lb                       $  9.08
+Cereal                         $  6.79
+Tomatoes                       $  4.51
+
+SUBTOTAL:                     $  92.33
+TAX (8.5%):                    $   7.85
+TOTAL:                        $ 100.18
+
+DISCOVER ****5579            $ 100.18
+
+ITEMS SOLD: 13
+Thank you for shopping!

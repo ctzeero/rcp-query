@@ -1,0 +1,19 @@
+Walgreens
+#1332
+217 Geary Street
+Oakland, CA
+(591) 555-8807
+
+11/29/2023                16:19
+Cashier: John D.
+
+Advil 200ct                  $ 16.52
+Cough Drops                  $  6.53
+Band-Aids                    $  9.06
+Vitamin D                    $ 14.99
+
+SUBTOTAL                       $ 47.10
+TAX (9.2%)                     $  4.36
+TOTAL                          $ 51.46
+
+VISA ****1219             $ 51.46

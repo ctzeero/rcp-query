@@ -1,0 +1,28 @@
+Target
+238 Main Street
+San Francisco, CA
+Phone: (457)-555-2531
+
+Date: 01/21/2024  Time: 16:52
+Cashier: John D.
+
+Greek Yogurt                   $  5.71
+Olive Oil                      $ 12.70
+Kale Bunch                     $  3.68
+Tomatoes                       $  6.91
+Rice 5lb                       $ 11.34
+Apples (6)                     $  7.40
+Ground Beef                    $ 10.13
+Orange Juice                   $  5.96
+Avocados (4)                   $  9.41
+Cereal                         $  7.51
+Spinach                        $  3.88
+
+SUBTOTAL:                     $  84.63
+TAX (8.5%):                    $   7.19
+TOTAL:                        $  91.82
+
+MASTERCARD ****8536            $  91.82
+
+ITEMS SOLD: 11
+Thank you for shopping!

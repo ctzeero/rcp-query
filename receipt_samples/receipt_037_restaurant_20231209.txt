@@ -1,0 +1,23 @@
+THE STEAKHOUSE
+525 Broadway Street
+San Francisco, CA
+Tel: 650-555-4991
+
+Server: Mike T.
+Table: 8
+Date: 12/09/2023 12:47
+
+House Wine Glass               $ 13.26
+Chicken Sandwich               $ 12.90
+
+SUBTOTAL                       $  26.16
+TAX                            $   2.22
+TOTAL                          $  28.38
+
+TIP (18%)                      $   5.11
+GRAND TOTAL                    $  33.49
+
+AMEX ****2668
+APPROVED
+
+Thank you! Please come again!

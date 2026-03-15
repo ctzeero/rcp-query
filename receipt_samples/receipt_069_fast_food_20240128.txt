@@ -1,0 +1,19 @@
+MCDONALD'S
+#3891
+365 Main Street
+San Francisco, CA
+
+Order #: 9047
+01/28/2024  21:43
+
+Burrito                        $ 11.83
+Chips - Large                  $  2.91
+Soda - Large                   $  2.68
+
+SUBTOTAL                       $ 17.42
+TAX                            $  1.48
+TOTAL                          $ 18.90
+
+CREDIT CARD ****8747           $ 18.90
+
+Thanks for your order!

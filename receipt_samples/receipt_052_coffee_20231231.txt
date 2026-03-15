@@ -1,0 +1,18 @@
+Peet's Coffee
+69 California Street
+Berkeley, CA
+
+12/31/2023  12:50 AM
+Order #: 2697
+Barista: Lucas
+
+2x Scone                     $  8.04
+2x Cappuccino                $ 10.68
+
+SUBTOTAL                       $ 28.08
+TAX                            $  2.60
+TOTAL                          $ 30.68
+
+DEBIT CARD                     $ 30.68
+
+Thanks for your order!

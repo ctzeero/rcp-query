@@ -1,0 +1,26 @@
+Bed Bath & Beyond
+773 Mission Street
+San Jose, CA
+Phone: (623)-555-1238
+
+Date: 01/24/2024  Time: 20:27
+Cashier: Maria L.
+
+Orange Juice                   $  6.22
+Rice 5lb                       $ 10.64
+Ground Beef                    $  8.53
+Pasta                          $  4.36
+Cheese Block                   $  7.13
+Almond Milk                    $  6.51
+Salmon Fillet                  $ 24.72
+Chicken Breast                 $ 14.41
+Cereal                         $  7.41
+
+SUBTOTAL:                     $  89.93
+TAX (9.1%):                    $   8.21
+TOTAL:                        $  98.14
+
+AMEX ****6629            $  98.14
+
+ITEMS SOLD: 9
+Thank you for shopping!

@@ -1,0 +1,26 @@
+MAMA'S PIZZA
+653 Valencia Street
+Berkeley, CA
+Tel: 501-555-8829
+
+Server: Alex M.
+Table: 5
+Date: 12/29/2023 20:31
+
+Chicken Sandwich               $ 15.13
+Margherita Pizza               $ 17.24
+Soda                           $  3.31
+Tiramisu                       $ 11.61
+Grilled Salmon                 $ 25.07
+
+SUBTOTAL                       $  72.36
+TAX                            $   6.69
+TOTAL                          $  79.05
+
+TIP (20%)                      $  15.81
+GRAND TOTAL                    $  94.86
+
+VISA ****8748
+APPROVED
+
+Thank you! Please come again!

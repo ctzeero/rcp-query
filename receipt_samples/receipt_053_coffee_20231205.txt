@@ -1,0 +1,23 @@
+Starbucks
+287 Market Plaza
+San Francisco, CA
+
+12/05/2023  15:20 PM
+Order #: 8489
+Barista: Lucas
+
+2x Bagel w/ Cream Cheese     $  8.12
+2x Cappuccino                $  9.42
+   + Oat Milk           $  0.75
+1x Scone                     $  4.10
+   + Almond Milk           $  0.75
+2x Muffin                    $  6.58
+   + Extra Shot           $  0.75
+
+SUBTOTAL                       $ 46.63
+TAX                            $  3.96
+TOTAL                          $ 50.59
+
+APPLE PAY                      $ 50.59
+
+Thanks for your order!

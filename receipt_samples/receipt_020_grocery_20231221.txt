@@ -1,0 +1,22 @@
+Costco Wholesale
+910 Market Street
+San Francisco, CA
+Phone: (462)-555-1723
+
+Date: 12/21/2023  Time: 20:35
+Cashier: Maria L.
+
+Ground Beef                    $ 10.42
+Kale Bunch                     $  3.22
+Apples (6)                     $  8.80
+Chicken Breast                 $  9.43
+Tomatoes                       $  5.65
+
+SUBTOTAL:                     $  37.52
+TAX (8.5%):                    $   3.19
+TOTAL:                        $  40.71
+
+MASTERCARD ****6474            $  40.71
+
+ITEMS SOLD: 5
+Thank you for shopping!

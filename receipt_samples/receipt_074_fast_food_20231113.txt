@@ -1,0 +1,19 @@
+SUBWAY
+#3005
+617 Main Street
+Oakland, CA
+
+Order #: 7777
+11/13/2023  17:21
+
+Bowl                           $ 10.99
+Chips - Medium                 $  4.50
+Juice - Medium                 $  3.20
+
+SUBTOTAL                       $ 18.69
+TAX                            $  1.73
+TOTAL                          $ 20.42
+
+CREDIT CARD ****8197           $ 20.42
+
+Thanks for your order!

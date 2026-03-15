@@ -1,0 +1,28 @@
+Trader Joe's
+161 Broadway Street
+San Francisco, CA
+Phone: (622)-555-2367
+
+Date: 11/24/2023  Time: 15:21
+Cashier: Emma K.
+
+Chicken Breast                 $ 10.81
+Ground Beef                    $ 12.23
+Avocados (4)                   $  9.73
+Coffee Beans                   $ 18.35
+Salmon Fillet                  $ 17.05
+Organic Bananas                $  5.47
+Cheese Block                   $  6.15
+Olive Oil                      $ 11.73
+Almond Milk                    $  4.59
+Spinach                        $  4.73
+Kale Bunch                     $  3.71
+
+SUBTOTAL:                     $ 104.55
+TAX (8.5%):                    $   8.89
+TOTAL:                        $ 113.44
+
+MASTERCARD ****7785            $ 113.44
+
+ITEMS SOLD: 11
+Thank you for shopping!

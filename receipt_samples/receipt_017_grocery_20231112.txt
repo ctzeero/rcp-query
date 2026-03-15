@@ -1,0 +1,23 @@
+Safeway
+262 Main Street
+Oakland, CA
+Phone: (494)-555-7926
+
+Date: 11/12/2023  Time: 20:58
+Cashier: Sarah M.
+
+Salmon Fillet                  $ 16.93
+Organic Bananas                $  4.37
+Orange Juice                   $  6.16
+Cereal                         $  7.84
+Chicken Breast                 $ 12.80
+Rice 5lb                       $  9.87
+
+SUBTOTAL:                     $  57.97
+TAX (9.2%):                    $   5.36
+TOTAL:                        $  63.33
+
+AMEX ****1120            $  63.33
+
+ITEMS SOLD: 6
+Thank you for shopping!

@@ -1,0 +1,26 @@
+BURGER PALACE
+360 Mission Street
+San Francisco, CA
+Tel: 584-555-2605
+
+Server: Jamie L.
+Table: 2
+Date: 12/12/2023 20:48
+
+Iced Tea                       $  3.81
+Soup of the Day                $ 10.93
+Soda                           $  3.60
+Grilled Salmon                 $ 26.13
+Beer                           $  7.14
+
+SUBTOTAL                       $  51.61
+TAX                            $   4.39
+TOTAL                          $  56.00
+
+TIP (20%)                      $  11.20
+GRAND TOTAL                    $  67.20
+
+VISA ****9232
+APPROVED
+
+Thank you! Please come again!

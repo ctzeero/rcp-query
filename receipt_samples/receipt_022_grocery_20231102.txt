@@ -1,0 +1,31 @@
+Safeway
+757 Main Street
+Oakland, CA
+Phone: (643)-555-5451
+
+Date: 11/02/2023  Time: 14:25
+Cashier: John D.
+
+Apples (6)                     $  8.62
+Almond Milk                    $  5.21
+Cereal                         $  5.20
+Ground Beef                    $ 12.21
+Pasta                          $  5.00
+Orange Juice                   $  5.45
+Greek Yogurt                   $  6.54
+Cheese Block                   $  7.44
+Eggs (12)                      $  6.52
+Tomatoes                       $  5.32
+Bread                          $  4.88
+Chicken Breast                 $ 11.75
+Coffee Beans                   $ 18.60
+Kale Bunch                     $  3.10
+
+SUBTOTAL:                     $ 105.84
+TAX (9.2%):                    $   9.79
+TOTAL:                        $ 115.63
+
+VISA ****5105            $ 115.63
+
+ITEMS SOLD: 14
+Thank you for shopping!

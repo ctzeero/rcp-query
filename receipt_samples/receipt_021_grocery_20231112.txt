@@ -1,0 +1,30 @@
+Walmart Supercenter
+247 Mission Street
+Daly City, CA
+Phone: (483)-555-8763
+
+Date: 11/12/2023  Time: 11:59
+Cashier: John D.
+
+Chicken Breast                 $  9.51
+Eggs (12)                      $  6.82
+Orange Juice                   $  6.63
+Rice 5lb                       $ 10.46
+Apples (6)                     $  8.11
+Ground Beef                    $  9.70
+Organic Bananas                $  3.61
+Tomatoes                       $  4.08
+Greek Yogurt                   $  7.87
+Coffee Beans                   $ 10.36
+Bread                          $  5.66
+Salmon Fillet                  $ 22.51
+Almond Milk                    $  5.70
+
+SUBTOTAL:                     $ 111.02
+TAX (8.8%):                    $   9.71
+TOTAL:                        $ 120.73
+
+DISCOVER ****5706            $ 120.73
+
+ITEMS SOLD: 13
+Thank you for shopping!

@@ -1,0 +1,32 @@
+Trader Joe's
+856 Broadway Street
+San Francisco, CA
+Phone: (636)-555-6277
+
+Date: 12/08/2023  Time: 14:14
+Cashier: Emma K.
+
+Eggs (12)                      $  7.94
+Ground Beef                    $  7.50
+Orange Juice                   $  5.86
+Cheese Block                   $  7.24
+Bread                          $  5.43
+Olive Oil                      $ 11.05
+Salmon Fillet                  $ 15.18
+Cereal                         $  7.44
+Chicken Breast                 $  9.59
+Kale Bunch                     $  4.64
+Almond Milk                    $  4.93
+Rice 5lb                       $  9.77
+Organic Bananas                $  5.81
+Coffee Beans                   $ 12.68
+Pasta                          $  4.30
+
+SUBTOTAL:                     $ 119.36
+TAX (8.5%):                    $  10.15
+TOTAL:                        $ 129.51
+
+DISCOVER ****2435            $ 129.51
+
+ITEMS SOLD: 15
+Thank you for shopping!

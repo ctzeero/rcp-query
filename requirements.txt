@@ -1,0 +1,16 @@
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+pinecone[grpc]
+pydantic
+fastapi
+uvicorn
+httpx
+streamlit
+python-dateutil
+holidays
+rapidfuzz
+lark
+python-dotenv
+pytest

@@ -1,0 +1,21 @@
+Starbucks
+400 Valencia Plaza
+San Francisco, CA
+
+12/15/2023  11:33 AM
+Order #: 9127
+Barista: Jake
+
+1x Espresso                  $  3.28
+1x Bagel w/ Cream Cheese     $  4.79
+   + Almond Milk           $  0.75
+1x Drip Coffee               $  3.66
+1x Latte                     $  4.04
+
+SUBTOTAL                       $ 32.29
+TAX                            $  2.74
+TOTAL                          $ 35.03
+
+DEBIT CARD                     $ 35.03
+
+Thanks for your order!

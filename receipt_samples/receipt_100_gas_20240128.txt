@@ -1,0 +1,27 @@
+Chevron
+390 Broadway Street
+San Francisco, CA
+Phone: (411)-555-4380
+
+Date: 01/28/2024  Time: 14:46
+Cashier: John D.
+
+Orange Juice                   $  6.72
+Coffee Beans                   $ 10.11
+Chicken Breast                 $ 10.27
+Spinach                        $  3.90
+Salmon Fillet                  $ 14.44
+Organic Bananas                $  4.78
+Eggs (12)                      $  7.41
+Avocados (4)                   $  8.21
+Bread                          $  6.75
+Ground Beef                    $ 10.01
+
+SUBTOTAL:                     $  82.60
+TAX (8.5%):                    $   7.02
+TOTAL:                        $  89.62
+
+AMEX ****6868            $  89.62
+
+ITEMS SOLD: 10
+Thank you for shopping!

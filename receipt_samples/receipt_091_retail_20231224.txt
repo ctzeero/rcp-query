@@ -1,0 +1,25 @@
+Gap
+717 Market Street
+San Francisco, CA
+Phone: (650)-555-3032
+
+Date: 12/24/2023  Time: 14:25
+Cashier: Sarah M.
+
+Almond Milk                    $  6.97
+Eggs (12)                      $  6.84
+Cheese Block                   $  6.23
+Organic Bananas                $  4.90
+Chicken Breast                 $ 13.96
+Greek Yogurt                   $  7.86
+Rice 5lb                       $ 11.49
+Orange Juice                   $  6.53
+
+SUBTOTAL:                     $  64.78
+TAX (8.5%):                    $   5.51
+TOTAL:                        $  70.29
+
+MASTERCARD ****5558            $  70.29
+
+ITEMS SOLD: 8
+Thank you for shopping!

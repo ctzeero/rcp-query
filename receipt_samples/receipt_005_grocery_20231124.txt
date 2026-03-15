@@ -1,0 +1,30 @@
+Costco Wholesale
+328 Post Street
+San Francisco, CA
+Phone: (552)-555-7173
+
+Date: 11/24/2023  Time: 16:10
+Cashier: Emma K.
+
+Avocados (4)                   $  8.10
+Chicken Breast                 $ 11.10
+Pasta                          $  4.51
+Bread                          $  5.47
+Salmon Fillet                  $ 15.88
+Coffee Beans                   $ 13.32
+Eggs (12)                      $  6.64
+Almond Milk                    $  5.90
+Tomatoes                       $  4.23
+Rice 5lb                       $ 11.14
+Olive Oil                      $ 11.51
+Apples (6)                     $  6.56
+Organic Bananas                $  3.80
+
+SUBTOTAL:                     $ 108.16
+TAX (8.5%):                    $   9.19
+TOTAL:                        $ 117.35
+
+AMEX ****9621            $ 117.35
+
+ITEMS SOLD: 13
+Thank you for shopping!

@@ -1,0 +1,26 @@
+MEDITERRANEAN GRILL
+515 Mission Street
+Palo Alto, CA
+Tel: 459-555-9310
+
+Server: Alex M.
+Table: 25
+Date: 12/02/2023 19:12
+
+Caesar Salad                   $ 11.38
+Soup of the Day                $  9.32
+Burger & Fries                 $ 14.16
+Soda                           $  3.51
+Grilled Salmon                 $ 25.75
+
+SUBTOTAL                       $  64.12
+TAX                            $   5.61
+TOTAL                          $  69.73
+
+TIP (15%)                      $  10.46
+GRAND TOTAL                    $  80.19
+
+AMEX ****5088
+APPROVED
+
+Thank you! Please come again!

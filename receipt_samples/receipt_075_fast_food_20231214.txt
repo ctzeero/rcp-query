@@ -1,0 +1,19 @@
+PANERA BREAD
+#7433
+964 Main Street
+Palo Alto, CA
+
+Order #: 1945
+12/14/2023  17:36
+
+Burrito                        $ 11.87
+Salad - Large                  $  4.16
+Juice - Medium                 $  2.12
+
+SUBTOTAL                       $ 18.15
+TAX                            $  1.59
+TOTAL                          $ 19.74
+
+CREDIT CARD ****1177           $ 19.74
+
+Thanks for your order!

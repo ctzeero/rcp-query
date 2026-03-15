@@ -1,0 +1,23 @@
+Starbucks
+978 Mint Plaza
+San Francisco, CA
+
+11/21/2023  9:34 PM
+Order #: 4834
+Barista: Jake
+
+1x Espresso                  $  2.71
+   + Almond Milk           $  0.75
+1x Cold Brew                 $  4.85
+   + Extra Shot           $  0.75
+1x Muffin                    $  4.28
+   + Oat Milk           $  0.75
+1x Bagel w/ Cream Cheese     $  4.45
+
+SUBTOTAL                       $ 34.83
+TAX                            $  2.96
+TOTAL                          $ 37.79
+
+CREDIT CARD                    $ 37.79
+
+Thanks for your order!

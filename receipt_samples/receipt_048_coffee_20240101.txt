@@ -1,0 +1,18 @@
+Peet's Coffee
+913 Market Street
+Berkeley, CA
+
+01/01/2024  19:31 PM
+Order #: 6650
+Barista: Lucas
+
+1x Drip Coffee               $  2.79
+1x Cappuccino                $  4.23
+
+SUBTOTAL                       $ 14.04
+TAX                            $  1.30
+TOTAL                          $ 15.34
+
+CREDIT CARD                    $ 15.34
+
+Thanks for your order!

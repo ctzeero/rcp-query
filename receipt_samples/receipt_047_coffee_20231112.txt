@@ -1,0 +1,17 @@
+Ritual Coffee
+985 Valencia Plaza
+San Francisco, CA
+
+11/12/2023  7:58 AM
+Order #: 3319
+Barista: Lucas
+
+1x Cappuccino                $  4.91
+
+SUBTOTAL                       $  9.82
+TAX                            $  0.83
+TOTAL                          $ 10.65
+
+CREDIT CARD                    $ 10.65
+
+Thanks for your order!

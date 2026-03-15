@@ -1,0 +1,22 @@
+Blue Bottle Coffee
+90 Mint Plaza
+San Francisco, CA
+
+12/01/2023  12:49 AM
+Order #: 1751
+Barista: Jake
+
+1x Cold Brew                 $  4.15
+2x Espresso                  $  6.72
+   + Vanilla           $  0.75
+1x Scone                     $  4.06
+1x Drip Coffee               $  4.25
+   + Extra Shot           $  0.75
+
+SUBTOTAL                       $ 36.50
+TAX                            $  3.10
+TOTAL                          $ 39.60
+
+CREDIT CARD                    $ 39.60
+
+Thanks for your order!

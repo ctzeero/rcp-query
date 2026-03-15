@@ -1,0 +1,20 @@
+PANERA BREAD
+#7915
+929 Market Street
+Palo Alto, CA
+
+Order #: 9504
+12/10/2023  14:34
+
+Bowl                           $  9.55
+Fries - Medium                 $  2.63
+Juice - Medium                 $  2.68
+Ice Cream                      $  3.20
+
+SUBTOTAL                       $ 18.06
+TAX                            $  1.58
+TOTAL                          $ 19.64
+
+DEBIT CARD ****1190           $ 19.64
+
+Thanks for your order!

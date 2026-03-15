@@ -1,0 +1,25 @@
+PHO CORNER
+105 Mission Street
+San Jose, CA
+Tel: 504-555-4111
+
+Server: Alex M.
+Table: 12
+Date: 01/13/2024 14:39
+
+Beer                           $  6.42
+Iced Tea                       $  3.04
+Soda                           $  3.40
+Pasta Primavera                $ 21.37
+
+SUBTOTAL                       $  34.23
+TAX                            $   3.12
+TOTAL                          $  37.35
+
+TIP (18%)                      $   6.72
+GRAND TOTAL                    $  44.07
+
+AMEX ****8783
+APPROVED
+
+Thank you! Please come again!

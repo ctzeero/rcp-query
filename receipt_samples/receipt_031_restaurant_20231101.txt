@@ -1,0 +1,26 @@
+MAMA'S PIZZA
+108 California Street
+Berkeley, CA
+Tel: 482-555-2369
+
+Server: Sarah K.
+Table: 19
+Date: 11/01/2023 11:29
+
+Beer                           $  6.27
+Soda                           $  3.21
+Grilled Salmon                 $ 24.97
+Pasta Primavera                $ 22.55
+Iced Tea                       $  3.23
+
+SUBTOTAL                       $  60.23
+TAX                            $   5.57
+TOTAL                          $  65.80
+
+TIP (20%)                      $  13.16
+GRAND TOTAL                    $  78.96
+
+VISA ****4518
+APPROVED
+
+Thank you! Please come again!

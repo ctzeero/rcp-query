@@ -1,0 +1,24 @@
+BURGER PALACE
+293 Broadway Street
+San Francisco, CA
+Tel: 608-555-1829
+
+Server: Mike T.
+Table: 13
+Date: 01/25/2024 14:20
+
+Soup of the Day                $ 11.48
+Iced Tea                       $  3.79
+Pasta Primavera                $ 17.93
+
+SUBTOTAL                       $  33.20
+TAX                            $   2.82
+TOTAL                          $  36.02
+
+TIP (15%)                      $   5.40
+GRAND TOTAL                    $  41.42
+
+AMEX ****5314
+APPROVED
+
+Thank you! Please come again!

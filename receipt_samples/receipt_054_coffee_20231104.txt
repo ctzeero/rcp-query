@@ -1,0 +1,21 @@
+Blue Bottle Coffee
+764 California Plaza
+San Francisco, CA
+
+11/04/2023  11:33 AM
+Order #: 5615
+Barista: Sofia
+
+1x Bagel w/ Cream Cheese     $  4.99
+1x Croissant                 $  4.06
+   + Oat Milk           $  0.75
+2x Drip Coffee               $  7.16
+1x Espresso                  $  2.89
+
+SUBTOTAL                       $ 35.37
+TAX                            $  3.01
+TOTAL                          $ 38.38
+
+DEBIT CARD                     $ 38.38
+
+Thanks for your order!

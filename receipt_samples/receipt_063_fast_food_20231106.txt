@@ -1,0 +1,19 @@
+SUBWAY
+#5387
+329 Mission Street
+Oakland, CA
+
+Order #: 3490
+11/06/2023  18:10
+
+Tacos                          $ 12.63
+Salad - Large                  $  4.84
+Water - Medium                 $  3.85
+
+SUBTOTAL                       $ 21.32
+TAX                            $  1.97
+TOTAL                          $ 23.29
+
+CASH ****5632           $ 23.29
+
+Thanks for your order!

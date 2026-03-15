@@ -1,0 +1,25 @@
+Costco Wholesale
+667 Main Street
+San Francisco, CA
+Phone: (505)-555-8959
+
+Date: 01/02/2024  Time: 17:31
+Cashier: Maria L.
+
+Olive Oil                      $ 12.87
+Almond Milk                    $  4.24
+Pasta                          $  4.78
+Tomatoes                       $  6.87
+Orange Juice                   $  7.16
+Avocados (4)                   $  9.88
+Coffee Beans                   $ 15.04
+Kale Bunch                     $  4.59
+
+SUBTOTAL:                     $  65.43
+TAX (8.5%):                    $   5.56
+TOTAL:                        $  70.99
+
+DISCOVER ****6967            $  70.99
+
+ITEMS SOLD: 8
+Thank you for shopping!

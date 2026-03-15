@@ -1,0 +1,24 @@
+AKIKO'S SUSHI
+670 Broadway Street
+San Francisco, CA
+Tel: 435-555-3058
+
+Server: Alex M.
+Table: 22
+Date: 12/26/2023 11:13
+
+Soup of the Day                $ 11.01
+House Wine Glass               $ 10.11
+Margherita Pizza               $ 14.99
+
+SUBTOTAL                       $  36.11
+TAX                            $   3.07
+TOTAL                          $  39.18
+
+TIP (18%)                      $   7.05
+GRAND TOTAL                    $  46.23
+
+AMEX ****3243
+APPROVED
+
+Thank you! Please come again!

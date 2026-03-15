@@ -1,0 +1,18 @@
+Peet's Coffee
+892 Valencia Plaza
+Berkeley, CA
+
+11/21/2023  7:16 PM
+Order #: 9431
+Barista: Emma
+
+1x Muffin                    $  3.48
+2x Espresso                  $  6.60
+
+SUBTOTAL                       $ 16.86
+TAX                            $  1.56
+TOTAL                          $ 18.42
+
+APPLE PAY                      $ 18.42
+
+Thanks for your order!

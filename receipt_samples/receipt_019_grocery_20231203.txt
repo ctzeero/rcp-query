@@ -1,0 +1,25 @@
+Walmart Supercenter
+743 Market Street
+Daly City, CA
+Phone: (514)-555-2414
+
+Date: 12/03/2023  Time: 19:16
+Cashier: Sarah M.
+
+Pasta                          $  5.42
+Eggs (12)                      $  7.66
+Rice 5lb                       $  9.30
+Greek Yogurt                   $  8.48
+Chicken Breast                 $ 13.07
+Spinach                        $  4.62
+Bread                          $  6.78
+Ground Beef                    $  7.36
+
+SUBTOTAL:                     $  62.69
+TAX (8.8%):                    $   5.49
+TOTAL:                        $  68.18
+
+AMEX ****1505            $  68.18
+
+ITEMS SOLD: 8
+Thank you for shopping!

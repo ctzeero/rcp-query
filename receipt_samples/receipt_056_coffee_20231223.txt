@@ -1,0 +1,18 @@
+Philz Coffee
+147 Market Plaza
+San Francisco, CA
+
+12/23/2023  18:41 PM
+Order #: 1065
+Barista: Sofia
+
+2x Cold Brew                 $ 10.30
+   + Vanilla           $  0.75
+
+SUBTOTAL                       $ 16.20
+TAX                            $  1.38
+TOTAL                          $ 17.58
+
+CREDIT CARD                    $ 17.58
+
+Thanks for your order!

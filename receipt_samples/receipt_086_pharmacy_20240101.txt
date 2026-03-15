@@ -1,0 +1,28 @@
+CVS/pharmacy
+#3299
+928 Market Street
+San Francisco, CA
+(556) 555-8938
+
+01/01/2024                17:34
+Cashier: Maria L.
+
+Multivitamin                 $ 17.17
+Advil 200ct                  $ 17.13
+Thermometer                  $ 13.95
+Vitamin D                    $ 11.80
+Band-Aids                    $  8.10
+Cough Drops                  $  5.40
+Allergy Medicine             $ 26.63
+First Aid Kit                $ 34.26
+
+*** PHARMACY PICKUP ***
+RX#: 1423295
+ATORVASTATIN 30DAY       $ 14.24
+INSURANCE COPAY
+
+SUBTOTAL                       $148.68
+TAX (8.5%)                     $ 12.64
+TOTAL                          $161.32
+
+DISCOVER ****7506             $161.32

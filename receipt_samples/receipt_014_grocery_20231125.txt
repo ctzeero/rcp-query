@@ -1,0 +1,31 @@
+Costco Wholesale
+720 Market Street
+San Francisco, CA
+Phone: (566)-555-9943
+
+Date: 11/25/2023  Time: 16:16
+Cashier: John D.
+
+Eggs (12)                      $  7.65
+Avocados (4)                   $  6.50
+Apples (6)                     $  8.03
+Bread                          $  5.32
+Tomatoes                       $  6.16
+Ground Beef                    $  7.78
+Almond Milk                    $  5.86
+Pasta                          $  5.40
+Cereal                         $  7.32
+Olive Oil                      $ 14.05
+Kale Bunch                     $  4.05
+Greek Yogurt                   $  6.58
+Cheese Block                   $  9.40
+Chicken Breast                 $ 14.08
+
+SUBTOTAL:                     $ 108.18
+TAX (8.5%):                    $   9.20
+TOTAL:                        $ 117.38
+
+DISCOVER ****2197            $ 117.38
+
+ITEMS SOLD: 14
+Thank you for shopping!

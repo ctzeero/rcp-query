@@ -1,0 +1,32 @@
+Target
+806 Mission Street
+San Francisco, CA
+Phone: (495)-555-1654
+
+Date: 12/23/2023  Time: 13:23
+Cashier: Emma K.
+
+Cheese Block                   $  7.49
+Cereal                         $  5.39
+Avocados (4)                   $  9.11
+Salmon Fillet                  $ 13.05
+Coffee Beans                   $ 18.81
+Orange Juice                   $  6.42
+Greek Yogurt                   $  7.13
+Organic Bananas                $  4.24
+Rice 5lb                       $  9.97
+Kale Bunch                     $  4.09
+Eggs (12)                      $  5.34
+Bread                          $  4.43
+Apples (6)                     $  6.47
+Olive Oil                      $ 10.69
+Tomatoes                       $  6.31
+
+SUBTOTAL:                     $ 118.94
+TAX (8.5%):                    $  10.11
+TOTAL:                        $ 129.05
+
+DISCOVER ****5311            $ 129.05
+
+ITEMS SOLD: 15
+Thank you for shopping!

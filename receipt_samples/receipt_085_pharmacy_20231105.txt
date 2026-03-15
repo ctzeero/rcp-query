@@ -1,0 +1,23 @@
+Walgreens
+#3558
+2371 Broadway Street
+Oakland, CA
+(453) 555-9399
+
+11/05/2023                12:36
+Cashier: John D.
+
+Advil 200ct                  $ 16.31
+Cough Drops                  $  4.87
+Multivitamin                 $ 21.99
+Thermometer                  $ 24.36
+First Aid Kit                $ 26.33
+Vitamin D                    $ 15.58
+Allergy Medicine             $ 27.26
+Band-Aids                    $  7.83
+
+SUBTOTAL                       $144.53
+TAX (9.2%)                     $ 13.37
+TOTAL                          $157.90
+
+VISA ****9240             $157.90

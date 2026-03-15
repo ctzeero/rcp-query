@@ -1,0 +1,24 @@
+MAMA'S PIZZA
+124 Valencia Street
+Berkeley, CA
+Tel: 633-555-7004
+
+Server: Sarah K.
+Table: 15
+Date: 11/11/2023 11:35
+
+Beer                           $  8.54
+Steak                          $ 37.75
+Margherita Pizza               $ 17.99
+
+SUBTOTAL                       $  64.28
+TAX                            $   5.95
+TOTAL                          $  70.23
+
+TIP (22%)                      $  15.45
+GRAND TOTAL                    $  85.68
+
+MASTERCARD ****4811
+APPROVED
+
+Thank you! Please come again!

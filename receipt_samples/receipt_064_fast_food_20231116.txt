@@ -1,0 +1,20 @@
+CHIPOTLE MEXICAN GRILL
+#8354
+276 Main Street
+San Francisco, CA
+
+Order #: 9206
+11/16/2023  20:33
+
+Bowl                           $ 12.80
+Chips - Large                  $  2.74
+Soda - Medium                  $  3.09
+Cookie                         $  2.95
+
+SUBTOTAL                       $ 21.58
+TAX                            $  1.83
+TOTAL                          $ 23.41
+
+DEBIT CARD ****7196           $ 23.41
+
+Thanks for your order!

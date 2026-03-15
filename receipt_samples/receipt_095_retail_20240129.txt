@@ -1,0 +1,27 @@
+Nike Store
+152 Broadway Street
+San Francisco, CA
+Phone: (644)-555-3872
+
+Date: 01/29/2024  Time: 15:44
+Cashier: John D.
+
+Ground Beef                    $ 12.17
+Cereal                         $  5.59
+Chicken Breast                 $  9.01
+Salmon Fillet                  $ 16.09
+Coffee Beans                   $ 11.16
+Organic Bananas                $  5.90
+Avocados (4)                   $  9.99
+Spinach                        $  3.57
+Cheese Block                   $  8.49
+Eggs (12)                      $  6.37
+
+SUBTOTAL:                     $  88.34
+TAX (8.5%):                    $   7.51
+TOTAL:                        $  95.85
+
+AMEX ****3783            $  95.85
+
+ITEMS SOLD: 10
+Thank you for shopping!

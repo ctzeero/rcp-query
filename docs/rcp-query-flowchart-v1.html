@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RCP Query — System Flow · Ember</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fdf9f6;
+    --white: #ffffff;
+    --ember: #c2410c;
+    --ember-light: #fef7f3;
+    --ember-40: rgba(194, 65, 12, 0.4);
+    --ember-70: rgba(194, 65, 12, 0.7);
+    --warm-black: #1c1917;
+    --warm-gray-900: #292524;
+    --warm-gray-700: #44403c;
+    --warm-gray-600: #57534e;
+    --warm-gray-500: #78716c;
+    --warm-gray-400: #a8a29e;
+    --warm-gray-300: #d6d3d1;
+    --warm-gray-200: #e7e0d8;
+    --warm-gray-100: #f5f0eb;
+    --warm-gray-50: #faf5f0;
+    --forest: #15803d;
+    --forest-70: rgba(21, 128, 61, 0.7);
+    --forest-bg: #f0fdf4;
+    --forest-border: #86efac;
+    --blue: #2563eb;
+    --blue-70: rgba(37, 99, 235, 0.7);
+    --blue-bg: #eff6ff;
+    --blue-border: #93c5fd;
+    --amber: #92400e;
+    --amber-70: rgba(146, 64, 14, 0.7);
+    --amber-bg: #fffbeb;
+    --amber-border: #fcd34d;
+    --red: #dc2626;
+    --red-70: rgba(220, 38, 38, 0.7);
+    --red-bg: #fef2f2;
+    --red-border: #fca5a5;
+    --ember-bg: #fff7ed;
+    --ember-border: #fdba74;
+    --purple: #5b21b6;
+    --purple-70: rgba(91, 33, 182, 0.7);
+    --purple-bg: #f5f3ff;
+    --purple-border: #c4b5fd;
+
+    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'SF Mono', 'Fira Code', monospace;
+
+    --card-radius: 8px;
+    --card-padding: 16px 20px;
+    --card-border: 1px solid var(--warm-gray-200);
+    --shadow-hover: 0 8px 24px rgba(0,0,0,0.06);
+    --connector-color: var(--warm-gray-300);
+    --connector-width: 1.5px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--warm-black);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    text-align: center;
+    padding: 48px 32px 40px;
+  }
+  .header h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--warm-black);
+    margin-bottom: 6px;
+  }
+  .header .subtitle {
+    font-size: 0.78rem;
+    color: var(--warm-gray-500);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+  .version-badge {
+    display: inline-block;
+    margin-top: 12px;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ember);
+    background: var(--ember-light);
+    border: 1px solid var(--ember-40);
+    padding: 3px 12px;
+    border-radius: 20px;
+  }
+
+  /* ── MAIN LAYOUT ── */
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px 40px;
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    position: relative;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── PHASE HEADER ── */
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .phase-header .ember-square {
+    width: 5px;
+    height: 5px;
+    background: var(--ember);
+    border-radius: 1px;
+    flex-shrink: 0;
+  }
+  .phase-header .phase-text {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--warm-gray-500);
+    white-space: nowrap;
+  }
+  .phase-header .phase-line {
+    flex: 1;
+    height: 1px;
+    background: var(--warm-gray-200);
+  }
+
+  /* ── FLOW WRAPPER ── */
+  .flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+  }
+
+  /* ── CONNECTOR ── */
+  .connector {
+    width: var(--connector-width);
+    height: 28px;
+    background: var(--connector-color);
+    position: relative;
+  }
+  .connector::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid var(--connector-color);
+  }
+  .connector.short { height: 18px; }
+  .connector.no-arrow::after { display: none; }
+
+  /* ── TRIGGER NODE ── */
+  .trigger-node {
+    background: var(--ember);
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 8px 28px;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(194, 65, 12, 0.2);
+    cursor: default;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .trigger-node:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(194, 65, 12, 0.25);
+  }
+
+  /* ── CARD (BASE) ── */
+  .card {
+    background: var(--white);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding);
+    width: 100%;
+    max-width: 440px;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+
+  /* Card semantic colors — tinted backgrounds + colored borders */
+  .card.process { border-color: var(--warm-gray-300); }
+  .card.db      { background: var(--forest-bg); border-color: var(--forest-border); border-style: dashed; }
+  .card.db .tag { color: var(--forest); }
+  .card.db .title { color: var(--forest); }
+  .card.ai      { background: var(--purple-bg); border-color: var(--purple-border); }
+  .card.io      { background: var(--blue-bg); border-color: var(--blue-border); }
+  .card.decision{ background: var(--amber-bg); border-color: var(--amber-border); }
+  .card.error   { background: var(--red-bg); border-color: var(--red-border); }
+
+  /* Card tag */
+  .card .tag {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .card.process .tag  { color: var(--warm-gray-500); }
+  .card.ai .tag       { color: var(--purple); }
+  .card.io .tag       { color: var(--blue); }
+  .card.decision .tag { color: var(--amber); }
+  .card.decision .title { color: var(--amber); }
+  .card.error .tag    { color: var(--red); }
+  .card.error .title  { color: var(--red); }
+
+  /* Card title */
+  .card .title {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--warm-black);
+    margin-bottom: 6px;
+    line-height: 1.35;
+  }
+
+  /* Card description */
+  .card .desc {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    color: var(--warm-gray-500);
+    line-height: 1.55;
+  }
+  .card .desc code {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    background: var(--warm-gray-50);
+    border: 1px solid var(--warm-gray-200);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--warm-gray-700);
+  }
+  .card .desc strong {
+    font-weight: 600;
+    color: var(--warm-gray-700);
+  }
+
+  /* ── DECISION DIAMOND-ISH ── */
+  .card.decision {
+    text-align: center;
+  }
+
+  /* ── BRANCH CONTAINER ── */
+  .branch-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 440px;
+  }
+  .branch-label {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 3px 10px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .branch-label.semantic { background: rgba(37, 99, 235, 0.08); border: 1px solid rgba(37, 99, 235, 0.25); color: var(--blue); }
+  .branch-label.aggregate { background: rgba(168, 162, 158, 0.12); border: 1px solid rgba(168, 162, 158, 0.35); color: var(--warm-gray-600); }
+  .branch-label.hybrid { background: rgba(91, 33, 182, 0.08); border: 1px solid rgba(91, 33, 182, 0.25); color: var(--purple); }
+
+  .branch-card {
+    background: var(--white);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: 12px 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .branch-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+  .branch-card.io      { background: var(--blue-bg); border-color: var(--blue-border); }
+  .branch-card.process  { border-color: var(--warm-gray-300); }
+  .branch-card.ai       { background: var(--purple-bg); border-color: var(--purple-border); }
+  .branch-card .title {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--warm-black);
+    margin-bottom: 4px;
+  }
+  .branch-card .desc {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    color: var(--warm-gray-500);
+    line-height: 1.45;
+  }
+
+  /* ── BRANCH CONNECTORS ── */
+  .branch-connectors {
+    width: 100%;
+    max-width: 440px;
+    height: 32px;
+    position: relative;
+  }
+  .branch-connectors .stem {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: var(--connector-width);
+    height: 12px;
+    background: var(--connector-color);
+    transform: translateX(-50%);
+  }
+  .branch-connectors .bar {
+    position: absolute;
+    top: 12px;
+    left: calc(100% / 6);
+    right: calc(100% / 6);
+    height: var(--connector-width);
+    background: var(--connector-color);
+  }
+  .branch-connectors .drop {
+    position: absolute;
+    top: 12px;
+    width: var(--connector-width);
+    height: 16px;
+    background: var(--connector-color);
+  }
+  .branch-connectors .drop::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid var(--connector-color);
+  }
+  .branch-connectors .drop.left   { left: calc(100% / 6); transform: translateX(-50%); }
+  .branch-connectors .drop.center { left: 50%; transform: translateX(-50%); }
+  .branch-connectors .drop.right  { right: calc(100% / 6); left: auto; transform: translateX(50%); }
+
+  /* Merge connectors (after branch cards) */
+  .merge-connectors {
+    width: 100%;
+    max-width: 440px;
+    height: 32px;
+    position: relative;
+  }
+  .merge-connectors .rise {
+    position: absolute;
+    top: 0;
+    width: var(--connector-width);
+    height: 12px;
+    background: var(--connector-color);
+  }
+  .merge-connectors .rise.left   { left: calc(100% / 6); transform: translateX(-50%); }
+  .merge-connectors .rise.center { left: 50%; transform: translateX(-50%); }
+  .merge-connectors .rise.right  { right: calc(100% / 6); left: auto; transform: translateX(50%); }
+  .merge-connectors .bar {
+    position: absolute;
+    top: 12px;
+    left: calc(100% / 6);
+    right: calc(100% / 6);
+    height: var(--connector-width);
+    background: var(--connector-color);
+  }
+  .merge-connectors .stem {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    width: var(--connector-width);
+    height: 16px;
+    background: var(--connector-color);
+    transform: translateX(-50%);
+  }
+  .merge-connectors .stem::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid var(--connector-color);
+  }
+
+  /* ── CONDITIONAL BOX ── */
+  .conditional-box {
+    border: 1.5px dashed var(--ember-40);
+    background: var(--ember-light);
+    border-radius: var(--card-radius);
+    padding: 14px 16px;
+    width: 100%;
+    max-width: 440px;
+    position: relative;
+  }
+  .conditional-box .cond-label {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ember-70);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .conditional-box .card {
+    max-width: 100%;
+  }
+
+  /* ── CROSS-COLUMN CONNECTOR ── */
+  .cross-connector {
+    position: absolute;
+    z-index: 5;
+    pointer-events: none;
+  }
+  .cross-connector-label {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--warm-gray-400);
+    background: var(--bg);
+    padding: 2px 8px;
+    position: absolute;
+  }
+
+  /* ── SHARED BOTTOM SECTIONS ── */
+  .bottom-sections {
+    max-width: 1200px;
+    margin: 48px auto 0;
+    padding: 0 32px 60px;
+  }
+
+  /* API Endpoints */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .section-header .ember-square {
+    width: 5px;
+    height: 5px;
+    background: var(--ember);
+    border-radius: 1px;
+    flex-shrink: 0;
+  }
+  .section-header .section-text {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--warm-gray-500);
+    white-space: nowrap;
+  }
+  .section-header .section-line {
+    flex: 1;
+    height: 1px;
+    background: var(--warm-gray-200);
+  }
+
+  .endpoints-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .endpoint-card {
+    background: var(--white);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: 14px 18px;
+    border-bottom: 2px solid var(--warm-gray-400);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+  }
+  .endpoint-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+  .endpoint-card .method {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+  }
+  .endpoint-card .method.get  { color: var(--forest-70); }
+  .endpoint-card .method.post { color: var(--blue-70); }
+  .endpoint-card .path {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--warm-black);
+    margin-bottom: 4px;
+  }
+  .endpoint-card .ep-desc {
+    font-size: 0.68rem;
+    color: var(--warm-gray-500);
+  }
+
+  /* Tech Chips */
+  .chips-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .chip {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 500;
+    background: var(--white);
+    border: 1px solid var(--warm-gray-200);
+    border-radius: 8px;
+    padding: 6px 14px;
+    color: var(--warm-gray-700);
+    border-bottom-width: 2px;
+    border-bottom-color: transparent;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-bottom-color 0.2s ease;
+    cursor: default;
+  }
+  .chip:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+    border-bottom-color: var(--ember);
+  }
+
+  /* Legend */
+  .legend {
+    border-top: 1px solid var(--warm-gray-200);
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  .legend-title {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--warm-gray-500);
+    margin-right: 4px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .legend-swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1.5px solid;
+    flex-shrink: 0;
+  }
+  .legend-swatch.process  { background: var(--white); border-color: var(--warm-gray-300); }
+  .legend-swatch.db       { background: var(--forest-bg); border-color: var(--forest-border); }
+  .legend-swatch.ai       { background: var(--purple-bg); border-color: var(--purple-border); }
+  .legend-swatch.io       { background: var(--blue-bg); border-color: var(--blue-border); }
+  .legend-swatch.decision { background: var(--amber-bg); border-color: var(--amber-border); }
+  .legend-swatch.error    { background: var(--red-bg); border-color: var(--red-border); }
+  .legend-swatch.trigger  { background: var(--ember); border-color: var(--ember); }
+  .legend-label {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    color: var(--warm-gray-500);
+  }
+
+  /* ── SVG OVERLAY ── */
+  .svg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>RCP QUERY &mdash; SYSTEM FLOW</h1>
+  <div class="subtitle">RAG Receipt Query &middot; Architecture reference</div>
+  <div class="version-badge">V1</div>
+  <div class="legend" style="justify-content: center; border-top: none; padding-top: 20px; max-width: 900px; margin: 0 auto;">
+    <div class="legend-item"><div class="legend-swatch trigger"></div><span class="legend-label">Trigger</span></div>
+    <div class="legend-item"><div class="legend-swatch process"></div><span class="legend-label">Process / Step</span></div>
+    <div class="legend-item"><div class="legend-swatch ai"></div><span class="legend-label">AI / LLM</span></div>
+    <div class="legend-item"><div class="legend-swatch db"></div><span class="legend-label">Database</span></div>
+    <div class="legend-item"><div class="legend-swatch io"></div><span class="legend-label">I/O / Interface</span></div>
+    <div class="legend-item"><div class="legend-swatch decision"></div><span class="legend-label">Decision</span></div>
+    <div class="legend-item"><div class="legend-swatch error"></div><span class="legend-label">Error</span></div>
+  </div>
+</div>
+
+<!-- MAIN TWO-COLUMN LAYOUT -->
+<div class="main-container">
+  <div class="columns" id="columnsContainer">
+
+    <!-- ═══════════════════ LEFT COLUMN: INGESTION ═══════════════════ -->
+    <div class="column" id="leftCol">
+      <div class="phase-header">
+        <div class="ember-square"></div>
+        <span class="phase-text">Phase 01 &middot; Data Ingestion &middot; One-time Setup</span>
+        <div class="phase-line"></div>
+      </div>
+
+      <div class="flow">
+        <!-- Trigger -->
+        <div class="trigger-node">python ingest.py</div>
+        <div class="connector"></div>
+
+        <!-- Step 01 -->
+        <div class="card process">
+          <div class="tag">Step 01 &middot; File Loader</div>
+          <div class="title">Read Receipt Files</div>
+          <div class="desc">Load 100 raw <code>.txt</code> receipt files from <code>receipt_samples/</code></div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Step 02 -->
+        <div class="card ai">
+          <div class="tag">Step 02 &middot; Gemini Structured Output</div>
+          <div class="title">Parse Receipts &rarr; Typed Objects</div>
+          <div class="desc">Gemini extracts merchant, date, items, totals, payment method, category into typed <code>Receipt</code> Pydantic models &mdash; handles all 9 receipt formats in a single prompt</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Step 03 -->
+        <div class="card process">
+          <div class="tag">Step 03 &middot; Hybrid Chunker</div>
+          <div class="title">Create Two Chunk Types per Receipt</div>
+          <div class="desc"><strong>Receipt-level</strong> (~100 docs) &mdash; full summaries for merchant/date/total queries<br><strong>Item-level</strong> (~600 docs) &mdash; individual line items for product-specific queries</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Step 04 -->
+        <div class="card ai">
+          <div class="tag">Step 04 &middot; Gemini Embedding</div>
+          <div class="title">Vectorize All Chunks</div>
+          <div class="desc">Embed ~720 documents using <code>gemini-embedding-001</code> at 768 dimensions &middot; batched in groups of 50 with exponential backoff retry</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- DB Node -->
+        <div class="card db" id="pineconeNode">
+          <div class="tag">DB Write &middot; Pinecone Index</div>
+          <div class="title">Upsert Vectors + Metadata</div>
+          <div class="desc">~720 vectors stored with rich metadata: merchant, date (epoch), category, total, city, chunk_type, item_name, price &middot; ID = MD5 hash of <code>receipt_id:chunk_type:item</code></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════ RIGHT COLUMN: QUERY ═══════════════════ -->
+    <div class="column" id="rightCol">
+      <div class="phase-header">
+        <div class="ember-square"></div>
+        <span class="phase-text">Phase 02 &middot; Query Pipeline &middot; Per User Request</span>
+        <div class="phase-line"></div>
+      </div>
+
+      <div class="flow">
+        <!-- Trigger -->
+        <div class="trigger-node">User Types Question</div>
+        <div class="connector"></div>
+
+        <!-- Chat Interface -->
+        <div class="card io">
+          <div class="tag">Streamlit UI &middot; app.py</div>
+          <div class="title">Chat Interface</div>
+          <div class="desc">Thin client &mdash; sends <code>POST /query</code> via httpx &middot; maintains conversation history in session state</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- POST /query -->
+        <div class="card process">
+          <div class="tag">Step 05 &middot; FastAPI &middot; api.py</div>
+          <div class="title">POST /query Endpoint</div>
+          <div class="desc">Orchestration layer &mdash; receives <code>QueryRequest</code>, runs full pipeline, returns <code>QueryResponse</code></div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Query Parser -->
+        <div class="card ai">
+          <div class="tag">Step 06 &middot; Query Parser &middot; Gemini</div>
+          <div class="title">NL &rarr; Structured Filters</div>
+          <div class="desc">Extracts: date range, merchant, category, city, price range, aggregation type, <code>chunk_type</code> routing &middot; sets <code>needs_all_results=true</code> for aggregation queries</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Decision -->
+        <div class="card decision" id="decisionNode">
+          <div class="tag">Decision &middot; Retrieval Strategy</div>
+          <div class="title">Which Retrieval Mode?</div>
+          <div class="desc">Route based on query type and parsed filters</div>
+        </div>
+
+        <!-- Branch connectors -->
+        <div class="branch-connectors">
+          <div class="stem"></div>
+          <div class="bar"></div>
+          <div class="drop left"></div>
+          <div class="drop center"></div>
+          <div class="drop right"></div>
+        </div>
+
+        <!-- Branch cards -->
+        <div class="branch-container" id="branchArea">
+          <div style="display:flex;flex-direction:column;align-items:center;">
+            <span class="branch-label semantic">Semantic Query</span>
+            <div class="branch-card io">
+              <div class="title">Vector Search</div>
+              <div class="desc">Cosine similarity + metadata filters &middot; returns top-k results</div>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;">
+            <span class="branch-label aggregate">Aggregation Query</span>
+            <div class="branch-card process">
+              <div class="title">Metadata-Only</div>
+              <div class="desc">Dummy vector + pure filter &mdash; returns all matching records for full computation</div>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;">
+            <span class="branch-label hybrid">Fuzzy / Mixed</span>
+            <div class="branch-card ai">
+              <div class="title">Hybrid Search</div>
+              <div class="desc">Vector search + post-retrieval soft filters for fuzzy string matching</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Merge connectors -->
+        <div class="merge-connectors">
+          <div class="rise left"></div>
+          <div class="rise center"></div>
+          <div class="rise right"></div>
+          <div class="bar"></div>
+          <div class="stem"></div>
+        </div>
+
+        <!-- Retriever -->
+        <div class="card process">
+          <div class="tag">Step 07 &middot; Retriever</div>
+          <div class="title">Apply Soft Filters + Return Documents</div>
+          <div class="desc">Post-filter with fuzzy string matching on merchant/city &middot; deduplicate by <code>receipt_id</code> for aggregations</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Conditional: Aggregator -->
+        <div class="conditional-box">
+          <div class="cond-label">Conditional &middot; Aggregation Queries Only</div>
+          <div class="card process">
+            <div class="tag">Step 08 &middot; Aggregator &middot; Pure Python</div>
+            <div class="title">Compute Aggregation</div>
+            <div class="desc">Calculates sum, avg, min, max, count, group-by &mdash; <strong>never delegated to LLM</strong> &middot; anti-hallucination guarantee on all monetary values</div>
+          </div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Generate Response -->
+        <div class="card ai">
+          <div class="tag">Step 09 &middot; Gemini 2.0 Flash</div>
+          <div class="title">Generate Response</div>
+          <div class="desc">LLM formats retrieved docs + aggregation data into a 2&ndash;3 sentence answer &middot; grounded only in retrieved context &mdash; never invents data</div>
+        </div>
+        <div class="connector"></div>
+
+        <!-- Display Results -->
+        <div class="card io">
+          <div class="tag">Step 10 &middot; Streamlit UI</div>
+          <div class="title">Display Results</div>
+          <div class="desc">Renders answer text + expandable receipt cards + aggregation breakdown table</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SVG cross-column connector -->
+    <svg class="svg-overlay" id="crossConnectorSvg"></svg>
+  </div>
+</div>
+
+<!-- SHARED BOTTOM SECTIONS -->
+<div class="bottom-sections">
+
+  <!-- API Endpoints -->
+  <div class="section-header">
+    <div class="ember-square"></div>
+    <span class="section-text">API Endpoints</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="endpoints-row">
+    <div class="endpoint-card">
+      <div class="method get">GET</div>
+      <div class="path">/health</div>
+      <div class="ep-desc">Health Check &mdash; Returns service status, Pinecone connectivity, and vector count</div>
+    </div>
+    <div class="endpoint-card">
+      <div class="method post">POST</div>
+      <div class="path">/query</div>
+      <div class="ep-desc">Query Endpoint &mdash; Accepts natural language question, returns grounded answer with sources</div>
+    </div>
+    <div class="endpoint-card">
+      <div class="method post">POST</div>
+      <div class="path">/ingest</div>
+      <div class="ep-desc">Ingest Trigger &mdash; Kicks off the receipt parsing and vectorization pipeline</div>
+    </div>
+  </div>
+
+  <!-- Tech Stack -->
+  <div class="section-header">
+    <div class="ember-square"></div>
+    <span class="section-text">Tech Stack</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="chips-row">
+    <div class="chip">Gemini 2.0 Flash</div>
+    <div class="chip">gemini-embedding-001</div>
+    <div class="chip">Pinecone Serverless</div>
+    <div class="chip">FastAPI</div>
+    <div class="chip">Streamlit</div>
+    <div class="chip">Pydantic v2</div>
+    <div class="chip">LangChain</div>
+  </div>
+
+  <!-- Legend -->
+  <div class="section-header">
+    <div class="ember-square"></div>
+    <span class="section-text">Legend</span>
+    <div class="section-line"></div>
+  </div>
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-swatch trigger"></div>
+      <span class="legend-label">Trigger</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch process"></div>
+      <span class="legend-label">Process / Step</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch ai"></div>
+      <span class="legend-label">AI / Gemini</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch db"></div>
+      <span class="legend-label">Database</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch io"></div>
+      <span class="legend-label">I/O / Interface</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch decision"></div>
+      <span class="legend-label">Decision</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-swatch error"></div>
+      <span class="legend-label">Error</span>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Draw cross-column dashed connector from Pinecone node to branch area
+  function drawCrossConnector() {
+    const svg = document.getElementById('crossConnectorSvg');
+    const container = document.getElementById('columnsContainer');
+    const pinecone = document.getElementById('pineconeNode');
+    const branch = document.getElementById('branchArea');
+
+    if (!svg || !container || !pinecone || !branch) return;
+
+    const containerRect = container.getBoundingClientRect();
+    const pineconeRect = pinecone.getBoundingClientRect();
+    const branchRect = branch.getBoundingClientRect();
+
+    // SVG dimensions
+    svg.setAttribute('width', containerRect.width);
+    svg.setAttribute('height', containerRect.height);
+    svg.style.width = containerRect.width + 'px';
+    svg.style.height = containerRect.height + 'px';
+
+    // Start: right edge of Pinecone card, vertically centered
+    const x1 = pineconeRect.right - containerRect.left;
+    const y1 = pineconeRect.top + pineconeRect.height / 2 - containerRect.top;
+
+    // End: left edge of branch area, vertically centered
+    const x2 = branchRect.left - containerRect.left;
+    const y2 = branchRect.top + branchRect.height / 2 - containerRect.top;
+
+    // Midpoint for label
+    const mx = (x1 + x2) / 2;
+    const my = (y1 + y2) / 2;
+
+    svg.innerHTML = `
+      <defs>
+        <marker id="arrowDash" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+          <polygon points="0 0, 6 2.5, 0 5" fill="#a8a29e"/>
+        </marker>
+      </defs>
+      <path d="M ${x1} ${y1} C ${x1 + 40} ${y1}, ${x2 - 40} ${y2}, ${x2} ${y2}"
+            fill="none"
+            stroke="#a8a29e"
+            stroke-width="1.5"
+            stroke-dasharray="6 4"
+            marker-end="url(#arrowDash)"/>
+      <rect x="${mx - 42}" y="${my - 10}" width="84" height="18" rx="9" fill="#fdf9f6" stroke="#e7e0d8" stroke-width="1"/>
+      <text x="${mx}" y="${my + 3}" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="8" fill="#a8a29e" letter-spacing="0.04em" text-transform="uppercase" font-weight="500">PINECONE INDEX</text>
+    `;
+  }
+
+  window.addEventListener('load', drawCrossConnector);
+  window.addEventListener('resize', drawCrossConnector);
+</script>
+</body>
+</html>

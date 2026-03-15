@@ -1,0 +1,27 @@
+Lowe's
+612 Market Street
+San Francisco, CA
+Phone: (410)-555-8000
+
+Date: 12/02/2023  Time: 12:18
+Cashier: Emma K.
+
+Cereal                         $  5.45
+Tomatoes                       $  5.50
+Chicken Breast                 $ 14.51
+Coffee Beans                   $ 13.96
+Orange Juice                   $  7.25
+Salmon Fillet                  $ 14.84
+Almond Milk                    $  5.45
+Kale Bunch                     $  3.81
+Apples (6)                     $  8.64
+Ground Beef                    $  8.19
+
+SUBTOTAL:                     $  87.60
+TAX (8.5%):                    $   7.45
+TOTAL:                        $  95.05
+
+DISCOVER ****8840            $  95.05
+
+ITEMS SOLD: 10
+Thank you for shopping!

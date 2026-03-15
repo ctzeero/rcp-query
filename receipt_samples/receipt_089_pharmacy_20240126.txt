@@ -1,0 +1,26 @@
+CVS/pharmacy
+#5508
+493 Mission Street
+San Francisco, CA
+(508) 555-4962
+
+01/26/2024                20:15
+Cashier: John D.
+
+Advil 200ct                  $ 18.41
+First Aid Kit                $ 25.56
+Cough Drops                  $  5.71
+Vitamin D                    $ 11.43
+Band-Aids                    $  7.18
+Allergy Medicine             $ 19.38
+
+*** PHARMACY PICKUP ***
+RX#: 3090264
+LISINOPRIL 30DAY       $ 23.51
+INSURANCE COPAY
+
+SUBTOTAL                       $111.18
+TAX (8.5%)                     $  9.45
+TOTAL                          $120.63
+
+VISA ****7771             $120.63

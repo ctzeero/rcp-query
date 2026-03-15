@@ -1,0 +1,23 @@
+APPLE STORE
+Store #7652
+435 Broadway St
+San Francisco, CA
+
+Transaction ID: MC-2023-37361
+Date: 11/06/2023  Time: 12:34
+Associate: Sarah P.
+
+Webcam
+SKU: 9393786
+                                    $ 113.34
+
+----------------------------------------
+SUBTOTAL:                         $ 113.34
+SALES TAX (8.5%):                  $   9.63
+TOTAL:                             $ 122.97
+
+PAYMENT METHOD: MASTERCARD ****9896
+APPROVAL CODE: 119892
+
+** 30-DAY RETURN POLICY **
+Thank you for shopping at Apple Store!

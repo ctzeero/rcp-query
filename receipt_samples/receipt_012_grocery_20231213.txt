@@ -1,0 +1,31 @@
+Target
+274 Broadway Street
+San Francisco, CA
+Phone: (499)-555-4275
+
+Date: 12/13/2023  Time: 11:30
+Cashier: Mike T.
+
+Kale Bunch                     $  3.88
+Greek Yogurt                   $  6.81
+Rice 5lb                       $  9.88
+Organic Bananas                $  4.62
+Pasta                          $  4.84
+Almond Milk                    $  6.16
+Salmon Fillet                  $ 14.22
+Avocados (4)                   $  6.63
+Ground Beef                    $ 11.02
+Apples (6)                     $  8.99
+Cheese Block                   $  7.62
+Cereal                         $  5.36
+Tomatoes                       $  5.52
+Spinach                        $  4.22
+
+SUBTOTAL:                     $  99.77
+TAX (8.5%):                    $   8.48
+TOTAL:                        $ 108.25
+
+DISCOVER ****2510            $ 108.25
+
+ITEMS SOLD: 14
+Thank you for shopping!

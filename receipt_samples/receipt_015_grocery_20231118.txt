@@ -1,0 +1,31 @@
+Whole Foods Market
+963 Market Street
+San Francisco, CA
+Phone: (505)-555-6298
+
+Date: 11/18/2023  Time: 15:20
+Cashier: Mike T.
+
+Cheese Block                   $  7.90
+Salmon Fillet                  $ 24.14
+Eggs (12)                      $  7.06
+Spinach                        $  4.65
+Coffee Beans                   $ 16.39
+Orange Juice                   $  6.74
+Ground Beef                    $  7.87
+Avocados (4)                   $  6.73
+Tomatoes                       $  6.52
+Kale Bunch                     $  3.41
+Chicken Breast                 $ 14.38
+Apples (6)                     $  7.63
+Olive Oil                      $ 11.22
+Bread                          $  6.75
+
+SUBTOTAL:                     $ 131.39
+TAX (8.5%):                    $  11.17
+TOTAL:                        $ 142.56
+
+DISCOVER ****4772            $ 142.56
+
+ITEMS SOLD: 14
+Thank you for shopping!

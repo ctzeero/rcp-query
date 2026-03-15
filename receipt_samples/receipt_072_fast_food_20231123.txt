@@ -1,0 +1,20 @@
+PANERA BREAD
+#5262
+820 Main Street
+Palo Alto, CA
+
+Order #: 5515
+11/23/2023  18:53
+
+Quesadilla                     $ 10.41
+Chips - Small                  $  3.73
+Juice - Large                  $  3.93
+Ice Cream                      $  2.54
+
+SUBTOTAL                       $ 20.61
+TAX                            $  1.80
+TOTAL                          $ 22.41
+
+CREDIT CARD ****2223           $ 22.41
+
+Thanks for your order!

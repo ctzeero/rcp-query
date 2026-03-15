@@ -1,0 +1,19 @@
+TACO BELL
+#7590
+320 Main Street
+San Jose, CA
+
+Order #: 3975
+12/31/2023  17:15
+
+Bowl                           $ 10.59
+Chips - Large                  $  3.33
+Soda - Small                   $  2.57
+
+SUBTOTAL                       $ 16.49
+TAX                            $  1.50
+TOTAL                          $ 17.99
+
+DEBIT CARD ****9155           $ 17.99
+
+Thanks for your order!

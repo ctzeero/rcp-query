@@ -1,0 +1,23 @@
+Ace Hardware
+588 Post Street
+Oakland, CA
+Phone: (546)-555-9068
+
+Date: 11/14/2023  Time: 20:20
+Cashier: Mike T.
+
+Eggs (12)                      $  6.61
+Rice 5lb                       $ 12.57
+Salmon Fillet                  $ 19.87
+Greek Yogurt                   $  8.97
+Pasta                          $  5.94
+Ground Beef                    $ 12.11
+
+SUBTOTAL:                     $  66.07
+TAX (9.2%):                    $   6.11
+TOTAL:                        $  72.18
+
+AMEX ****4816            $  72.18
+
+ITEMS SOLD: 6
+Thank you for shopping!

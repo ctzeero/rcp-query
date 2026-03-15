@@ -1,0 +1,27 @@
+Trader Joe's
+597 Main Street
+San Francisco, CA
+Phone: (462)-555-9694
+
+Date: 01/01/2024  Time: 9:47
+Cashier: Maria L.
+
+Spinach                        $  3.31
+Bread                          $  6.61
+Chicken Breast                 $ 14.10
+Eggs (12)                      $  5.96
+Apples (6)                     $  7.91
+Orange Juice                   $  5.14
+Cereal                         $  5.29
+Avocados (4)                   $  8.67
+Pasta                          $  4.61
+Rice 5lb                       $ 10.88
+
+SUBTOTAL:                     $  72.48
+TAX (8.5%):                    $   6.16
+TOTAL:                        $  78.64
+
+AMEX ****3265            $  78.64
+
+ITEMS SOLD: 10
+Thank you for shopping!

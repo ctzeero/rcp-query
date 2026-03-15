@@ -1,0 +1,21 @@
+Philz Coffee
+684 Market Street
+San Francisco, CA
+
+11/06/2023  10:23 PM
+Order #: 2087
+Barista: Lucas
+
+2x Latte                     $ 10.26
+   + Almond Milk           $  0.75
+1x Bagel w/ Cream Cheese     $  4.54
+   + Almond Milk           $  0.75
+1x Scone                     $  3.87
+
+SUBTOTAL                       $ 33.71
+TAX                            $  2.87
+TOTAL                          $ 36.58
+
+APPLE PAY                      $ 36.58
+
+Thanks for your order!

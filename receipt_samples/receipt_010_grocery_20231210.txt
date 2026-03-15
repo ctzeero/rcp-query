@@ -1,0 +1,25 @@
+Safeway
+975 Broadway Street
+Oakland, CA
+Phone: (477)-555-2348
+
+Date: 12/10/2023  Time: 9:47
+Cashier: Mike T.
+
+Cereal                         $  6.97
+Spinach                        $  4.74
+Almond Milk                    $  5.43
+Kale Bunch                     $  4.77
+Pasta                          $  5.56
+Coffee Beans                   $ 10.78
+Olive Oil                      $  9.20
+Greek Yogurt                   $  5.39
+
+SUBTOTAL:                     $  52.84
+TAX (9.2%):                    $   4.89
+TOTAL:                        $  57.73
+
+AMEX ****2132            $  57.73
+
+ITEMS SOLD: 8
+Thank you for shopping!

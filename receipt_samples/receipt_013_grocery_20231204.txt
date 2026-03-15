@@ -1,0 +1,29 @@
+Trader Joe's
+554 Post Street
+San Francisco, CA
+Phone: (571)-555-1637
+
+Date: 12/04/2023  Time: 14:33
+Cashier: Mike T.
+
+Organic Bananas                $  5.87
+Chicken Breast                 $ 11.12
+Bread                          $  4.36
+Olive Oil                      $ 12.75
+Almond Milk                    $  6.71
+Cheese Block                   $  8.78
+Spinach                        $  4.65
+Eggs (12)                      $  7.93
+Avocados (4)                   $  9.14
+Kale Bunch                     $  3.41
+Rice 5lb                       $  9.51
+Cereal                         $  6.30
+
+SUBTOTAL:                     $  90.53
+TAX (8.5%):                    $   7.70
+TOTAL:                        $  98.23
+
+VISA ****3146            $  98.23
+
+ITEMS SOLD: 12
+Thank you for shopping!

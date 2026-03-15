@@ -1,0 +1,25 @@
+Costco Wholesale
+413 Mission Street
+San Francisco, CA
+Phone: (459)-555-3324
+
+Date: 12/07/2023  Time: 8:58
+Cashier: John D.
+
+Organic Bananas                $  5.41
+Pasta                          $  4.76
+Eggs (12)                      $  5.38
+Olive Oil                      $  9.96
+Bread                          $  5.02
+Tomatoes                       $  6.84
+Greek Yogurt                   $  7.38
+Rice 5lb                       $ 10.54
+
+SUBTOTAL:                     $  55.29
+TAX (8.5%):                    $   4.70
+TOTAL:                        $  59.99
+
+MASTERCARD ****4045            $  59.99
+
+ITEMS SOLD: 8
+Thank you for shopping!

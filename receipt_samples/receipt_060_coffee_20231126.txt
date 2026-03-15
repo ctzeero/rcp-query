@@ -1,0 +1,17 @@
+Peet's Coffee
+641 Market Plaza
+Berkeley, CA
+
+11/26/2023  16:44 AM
+Order #: 7101
+Barista: Emma
+
+1x Croissant                 $  3.85
+
+SUBTOTAL                       $  7.70
+TAX                            $  0.71
+TOTAL                          $  8.41
+
+CREDIT CARD                    $  8.41
+
+Thanks for your order!

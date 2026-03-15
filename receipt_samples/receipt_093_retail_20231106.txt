@@ -1,0 +1,24 @@
+Gap
+380 Mission Street
+San Francisco, CA
+Phone: (444)-555-7959
+
+Date: 11/06/2023  Time: 12:58
+Cashier: Emma K.
+
+Almond Milk                    $  4.15
+Organic Bananas                $  3.43
+Orange Juice                   $  5.40
+Olive Oil                      $ 12.52
+Spinach                        $  4.25
+Cereal                         $  5.22
+Pasta                          $  5.54
+
+SUBTOTAL:                     $  40.51
+TAX (8.5%):                    $   3.44
+TOTAL:                        $  43.95
+
+AMEX ****1592            $  43.95
+
+ITEMS SOLD: 7
+Thank you for shopping!

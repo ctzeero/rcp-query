@@ -1,0 +1,19 @@
+CHIPOTLE MEXICAN GRILL
+#3654
+995 Mission Street
+San Francisco, CA
+
+Order #: 9084
+11/01/2023  13:58
+
+Tacos                          $ 11.35
+Salad - Small                  $  4.76
+Juice - Small                  $  2.78
+
+SUBTOTAL                       $ 18.89
+TAX                            $  1.61
+TOTAL                          $ 20.50
+
+DEBIT CARD ****4928           $ 20.50
+
+Thanks for your order!

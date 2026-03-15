@@ -1,0 +1,25 @@
+AKIKO'S SUSHI
+205 Valencia Street
+San Francisco, CA
+Tel: 460-555-1073
+
+Server: Alex M.
+Table: 4
+Date: 12/29/2023 18:51
+
+Margherita Pizza               $ 17.40
+Soda                           $  3.93
+Burger & Fries                 $ 16.04
+Iced Tea                       $  3.85
+
+SUBTOTAL                       $  41.22
+TAX                            $   3.50
+TOTAL                          $  44.72
+
+TIP (15%)                      $   6.71
+GRAND TOTAL                    $  51.43
+
+VISA ****9989
+APPROVED
+
+Thank you! Please come again!

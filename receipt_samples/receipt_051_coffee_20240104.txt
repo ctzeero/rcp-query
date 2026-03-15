@@ -1,0 +1,19 @@
+Philz Coffee
+172 Valencia Plaza
+San Francisco, CA
+
+01/04/2024  10:31 PM
+Order #: 5380
+Barista: Emma
+
+2x Drip Coffee               $  5.36
+1x Scone                     $  3.82
+1x Latte                     $  4.53
+
+SUBTOTAL                       $ 24.74
+TAX                            $  2.10
+TOTAL                          $ 26.84
+
+APPLE PAY                      $ 26.84
+
+Thanks for your order!

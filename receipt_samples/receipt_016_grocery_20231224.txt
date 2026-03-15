@@ -1,0 +1,24 @@
+Target
+340 Main Street
+San Francisco, CA
+Phone: (583)-555-4190
+
+Date: 12/24/2023  Time: 18:39
+Cashier: Emma K.
+
+Orange Juice                   $  6.91
+Olive Oil                      $ 14.20
+Kale Bunch                     $  3.66
+Avocados (4)                   $  8.00
+Apples (6)                     $  8.51
+Coffee Beans                   $ 17.14
+Bread                          $  4.45
+
+SUBTOTAL:                     $  62.87
+TAX (8.5%):                    $   5.34
+TOTAL:                        $  68.21
+
+DISCOVER ****9759            $  68.21
+
+ITEMS SOLD: 7
+Thank you for shopping!

@@ -1,0 +1,32 @@
+Costco Wholesale
+160 Post Street
+San Francisco, CA
+Phone: (643)-555-2639
+
+Date: 01/24/2024  Time: 9:14
+Cashier: Maria L.
+
+Bread                          $  4.08
+Rice 5lb                       $ 11.89
+Pasta                          $  3.86
+Organic Bananas                $  4.02
+Coffee Beans                   $ 14.90
+Orange Juice                   $  5.45
+Tomatoes                       $  6.28
+Almond Milk                    $  4.01
+Apples (6)                     $  7.29
+Avocados (4)                   $  9.15
+Eggs (12)                      $  6.10
+Cheese Block                   $  8.61
+Spinach                        $  3.42
+Olive Oil                      $ 13.73
+Kale Bunch                     $  3.29
+
+SUBTOTAL:                     $ 106.08
+TAX (8.5%):                    $   9.02
+TOTAL:                        $ 115.10
+
+AMEX ****2790            $ 115.10
+
+ITEMS SOLD: 15
+Thank you for shopping!

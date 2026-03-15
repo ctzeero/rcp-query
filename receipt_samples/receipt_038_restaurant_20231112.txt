@@ -1,0 +1,27 @@
+THE GOLDEN FORK
+900 California Street
+San Francisco, CA
+Tel: 610-555-4271
+
+Server: Mike T.
+Table: 25
+Date: 11/12/2023 14:43
+
+House Wine Glass               $ 11.57
+Beer                           $  6.09
+Margherita Pizza               $ 19.76
+Tiramisu                       $ 11.36
+Caesar Salad                   $ 10.03
+Cheesecake                     $  8.73
+
+SUBTOTAL                       $  67.54
+TAX                            $   5.74
+TOTAL                          $  73.28
+
+TIP (15%)                      $  10.99
+GRAND TOTAL                    $  84.27
+
+AMEX ****6073
+APPROVED
+
+Thank you! Please come again!

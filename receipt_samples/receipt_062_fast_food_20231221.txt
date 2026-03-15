@@ -1,0 +1,19 @@
+PANERA BREAD
+#7405
+643 Main Street
+Palo Alto, CA
+
+Order #: 8245
+12/21/2023  14:42
+
+Burrito                        $  9.39
+Salad - Large                  $  4.68
+Water - Small                  $  2.19
+
+SUBTOTAL                       $ 16.26
+TAX                            $  1.42
+TOTAL                          $ 17.68
+
+CASH ****2109           $ 17.68
+
+Thanks for your order!

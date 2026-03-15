@@ -1,0 +1,27 @@
+BURGER PALACE
+111 Mission Street
+San Francisco, CA
+Tel: 634-555-3055
+
+Server: Sarah K.
+Table: 8
+Date: 12/05/2023 12:32
+
+Tiramisu                       $  8.15
+Burger & Fries                 $ 16.90
+Caesar Salad                   $ 11.90
+Pasta Primavera                $ 23.88
+Steak                          $ 36.52
+Chicken Sandwich               $ 15.73
+
+SUBTOTAL                       $ 113.08
+TAX                            $   9.61
+TOTAL                          $ 122.69
+
+TIP (15%)                      $  18.40
+GRAND TOTAL                    $ 141.09
+
+MASTERCARD ****6618
+APPROVED
+
+Thank you! Please come again!
